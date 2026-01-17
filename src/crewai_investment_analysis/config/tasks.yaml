@@ -1,0 +1,26 @@
+research_task:
+  description: >
+    Conduct detailed research on the investment topic provided by the user
+    in the input ({{ topic }}). Identify the asset type, underlying exposure,
+    market trends, and key drivers affecting its performance.
+  expected_output: >
+    A research summary focused specifically on the user-provided investment topic.
+  agent: research_analyst
+
+financial_analysis_task:
+  description: >
+    Analyze the financial and market-related characteristics of the asset
+    mentioned in {{ topic }}. Focus on volatility, returns, risk factors,
+    and suitability for long-term investors.
+  expected_output: >
+    A financial analysis aligned with the investment topic provided by the user.
+  agent: financial_analyst
+
+investment_advice_task:
+  description: >
+    Based on the research and financial analysis of {{ topic }},
+    provide a final investment recommendation considering the
+    user's risk appetite and long-term investment horizon.
+  expected_output: >
+    A final investment recommendation directly answering the user's query.
+  agent: investment_advisor
