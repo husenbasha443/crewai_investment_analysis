@@ -1,6 +1,6 @@
 # 📊 Investment Analysis System using CrewAI
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements an **AI-powered Investment Analysis System** using **CrewAI**, where multiple intelligent agents collaborate to analyze an investment opportunity and provide a final recommendation.
 
